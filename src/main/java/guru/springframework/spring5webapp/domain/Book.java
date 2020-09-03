@@ -86,4 +86,15 @@ public class Book
     {
         return id != null ? id.hashCode() : 0;
     }
+
+    @Override
+    public String toString()
+    {
+        return "Book{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", isbn='" + isbn + '\'' +
+                ", authors=" + authors +
+                '}';
+    }
 }
